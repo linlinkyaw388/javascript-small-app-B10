@@ -1,0 +1,108 @@
+
+/* input box တွေကို အလယ်ရောက်စေချင်လို့။ */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height:100vh;
+    /* background-color: darkorchid; */
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin:0;
+}
+.container{
+    width: 900px;
+    background-color: orange;
+    padding: 20px;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+h2{
+    display: grid;
+    place-items: center;
+}
+#signup-btn,#fullscreen-btn,#closefullscreen-btn{
+    transform: translateX(325px);
+}
+#signup-btn{
+    background-color:  paleturquoise;
+    padding: 5px;
+    font-weight:bold;
+}
+#fullscreen-btn{
+    background-color:paleturquoise;
+    padding: 5px;
+    font-weight:bold;
+}
+#closefullscreen-btn{
+    background-color: paleturquoise;
+    padding: 5px;
+    font-weight:bold;
+    display: none;
+}
+.modal{
+    width:100%;
+    height:100%;
+    background-color:pink;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 2;
+    display: none;
+}
+.btn-close{
+    font-size: 40px;
+    font-weight: bold;
+    color:#f1f1f1;
+    cursor: pointer;
+    position: absolute;
+    right:35px;
+    top:30px;
+}
+.btn-close:hover,.btn-close:focus{
+    color:green;
+}
+form{
+    width: 500px;
+    margin:0 auto;
+}
+form h2{
+    color:#fff;
+}
+.input-group{
+    width:100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 150px;
+    background-color: steelblue;
+    color:#fff;
+    text-align: center;
+    padding:10px 0;
+}
+.input-group-text{
+    width:100%;
+    padding:10px;
+    border-radius: none;
+}
+.input-group-text:focus{
+    outline:none;
+    border:2px solid steelblue;
+}
+.btn{
+    width:100%;
+    background-color: steelblue;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    opacity: 0.9;
+    padding: 15px 20px;
+}
+.btn:hover{
+    opacity: 1;
+}
