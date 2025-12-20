@@ -5,3 +5,5 @@
 [L5modalbox](https://linlinkyaw388.github.io/javascript-small-app-B10/l5modalbox/index.html)
 
 [L6modalbox](https://linlinkyaw388.github.io/javascript-small-app-B10/l6modalbox/index.html)
+
+[L7tabs](https://linlinkyaw388.github.io/javascript-small-app-B10/l7tabs/index.html)
