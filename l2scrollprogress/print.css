@@ -1,0 +1,32 @@
+body{
+    color:blue;
+}
+.header{
+    background-color: steelblue;
+    color:red;
+    position:static;
+
+    -webkit-print-color-adjust:exact;
+}
+.content{
+    padding:0;
+    margin:0 auto;
+       /* background-color: ; */
+    -webkit-print-color-adjust:exact;
+}
+.print-btn{
+    display: none;
+}
+
+@page{
+    size:portrait;
+    size:Landscape;
+    size:auto;
+
+    size:A4;
+    size:Legal;
+    size:A4 landscape;
+    size:4in 6in;
+
+    margin:0;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.accordion{
+    width:100%;
+}
+.accordion .acctitle{
+    background-color: #777;
+    color:#fff;
+    font-size: 14px;
+
+    padding:15px;
+    margin: 0;
+
+    cursor: pointer;
+    user-select: none;
+
+    position: relative;
+}
+                        /* same class same element တူလို့ကပ်ရေး */
+.accordion .acctitle:hover,.accordion .acctitle.active{
+    background-color: steelblue;
+}
+.accordion .acctitle::after{
+    content:"\f067";
+
+    font-family: "Font Awesome 5 Free";
+    /* position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%); */
+    /* ဘာ element မရှိတော့ရင် ဘာမှထပ်လာစရာမရှိတော့ရင် float ပေးလည်းရ။ */
+    float:right;  
+}
+.accordion .acctitle.active::after{
+    content:"\f068";
+}
+.accordion .acccontent{
+    height:0;
+    background-color: #f4f4f4;
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 20px;
+    overflow: hidden;
+}

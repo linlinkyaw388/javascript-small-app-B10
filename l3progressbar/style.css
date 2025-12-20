@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+    height:100vh;
+ /* main element တစ်ခုပဲရှိလို့ဒါသုံးလည်းရ။ */
+    display: grid;
+    place-items:center;
+}
+.container{
+    width:600px;
+}
+.progress{
+ /* width:600px; */
+    width:inherit;
+    height:20px;
+    background-color: #ddd;
+    margin-bottom:20px
+}
+.progress .progress-bar{
+    width:0;
+    height:inherit;
+    background-color: forestgreen;
+
+    position: relative;
+}
+.progress .progress-bar::before{
+    content:attr(data-inc);
+    color:#fff;
+
+    position:absolute;
+    right:20px;
+    top:50%;
+ /* align-items: center; */
+    transform:translateY(-50%);
+}
