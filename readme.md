@@ -13,3 +13,7 @@
 [L9galleryslider](https://linlinkyaw388.github.io/javascript-small-app-B10/l9galleryslider/index.html)
 
 [L10todolist](https://linlinkyaw388.github.io/javascript-small-app-B10/l10todolist/index.html)
+
+[L11pricingcardbox](https://linlinkyaw388.github.io/javascript-small-app-B10/l11pricingcardbox/index.html)
+
+[L12emailbox](https://linlinkyaw388.github.io/javascript-small-app-B10/l12emailbox/index.html)
