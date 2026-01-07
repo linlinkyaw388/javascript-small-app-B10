@@ -1,0 +1,104 @@
+
+/* input box တွေကို အလယ်ရောက်စေချင်လို့။ */
+
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    font-family: sans-serif;
+    background-color: #333;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* element တွေကိုဒေါင်လိုက်ဖြစ်စေချင်တာ။ */
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #f1f1f1;
+    margin-bottom: 50px;
+}
+.container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbox{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.imgbox.show{
+    width: 400px;
+    height: 400px;
+    box-shadow: 3px 3px 15px gray;
+}
+.imgbox .img{
+    width: 100%;
+    height: 100%;
+    /* html မှာရ။ css ကထည့်တဲ့ပုံမရ။ background position */ 
+    object-fit: cover;
+}
+.btn-close{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+    display: none;
+}
+.btn-close:hover{
+    border: 1px solid red;
+}
+.imgbox.show .btn-close{
+    display: block;
+}
+.imgbox .title{
+    width: 100%;
+    /* background-color: steelblue; */
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    transform: translateX(-150%);
+}
+.imgbox .title span{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+}
+.imgbox .content{
+    width: 100%;
+    height: 20%;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(300%);
+    
+}
+.btn{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+/* child တွေကိုပြော။ */
+.imgbox.show > *{
+    /* * ဒါရှုပ်နေတာ။ */
+    transform: translate(0px,0px);
+}
