@@ -19,3 +19,5 @@
 [L12emailbox](https://linlinkyaw388.github.io/javascript-small-app-B10/l12emailbox/index.html)
 
 [L13imagebox](https://linlinkyaw388.github.io/javascript-small-app-B10/l13imagebox/index.html)
+
+[L14clickposition](https://linlinkyaw388.github.io/javascript-small-app-B10/l14clickposition/index.html)
