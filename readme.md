@@ -23,3 +23,9 @@
 [L14clickposition](https://linlinkyaw388.github.io/javascript-small-app-B10/l14clickposition/index.html)
 
 [L15verifyingimagebox](https://linlinkyaw388.github.io/javascript-small-app-B10/l15verifyingimagebox/index.html)
+
+[L16visacard](https://linlinkyaw388.github.io/javascript-small-app-B10/l16visacard/index.html)
+
+[L17texteffect](https://linlinkyaw388.github.io/javascript-small-app-B10/lL17texteffect/index.html)
+
+[L18audioplayer](https://linlinkyaw388.github.io/javascript-small-app-B10/l18audioplayer/index.html)
