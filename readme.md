@@ -29,3 +29,13 @@
 [L17texteffect](https://linlinkyaw388.github.io/javascript-small-app-B10/lL17texteffect/index.html)
 
 [L18audioplayer](https://linlinkyaw388.github.io/javascript-small-app-B10/l18audioplayer/index.html)
+
+[L19videoplayer](https://linlinkyaw388.github.io/javascript-small-app-B10/l19videoplayer/index.html)
+
+[L20calendar](https://linlinkyaw388.github.io/javascript-small-app-B10/l20calendar/index.html)
+
+[L21numberguesswithvoicecommand](https://linlinkyaw388.github.io/javascript-small-app-B10/l21numberguesswithvoicecommand/index.html)
+
+[L22timeline](https://linlinkyaw388.github.io/javascript-small-app-B10/l22timeline/index.html)
+
+[L23sidebar](https://linlinkyaw388.github.io/javascript-small-app-B10/l23sidebar/index.html)

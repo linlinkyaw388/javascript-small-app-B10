@@ -9,12 +9,12 @@ const database = [
     correctanswer:"b"
   },
   {
-    question: "choose mountain ?",
+    question: "choose traffic ?",
     a:"./img/ambulance.jpg",
     b:'./img/mountain.jpg',
     c:"./img/traffic.jpg",
     d:"./img/airport.jpg",
-    correctanswer:"b"
+    correctanswer:"c"
   },
   {
     question: "choose Ambulance Truck ? ?",
@@ -52,6 +52,9 @@ const getbtn = document.querySelector('.btn');
 let currentidx = 0;
 let score = 0;
 
+
+
+
 function startquestion(){
 
   removeselected();
@@ -65,7 +68,7 @@ function startquestion(){
   getd_img.src = currentqes.d;
 }
 
-startquestion();
+// startquestion();
 
 
 
@@ -138,3 +141,24 @@ function doubleclick(){
     
    
 }
+
+
+//from AI
+
+const getrobotcheck = document.getElementById('robot-check');
+const getrobotverify = document.getElementById('robot-verify');
+const getquizcontainer = document.getElementById('quiz-container');
+
+getrobotcheck.addEventListener('change', function() {
+    if(this.checked) {
+        // အမှန်ခြစ်ပြီးရင် ခဏစောင့်ပြီးမှ Quiz ကိုပြမယ်
+        setTimeout(() => {
+            getrobotverify.classList.add('hidden') // စစ်တဲ့ကောင်ကိုဖျောက်
+            getquizcontainer.classList.remove('hidden')// Quiz ကိုပြ
+            startquestion(); // မေးခွန်းစတင်မယ်
+        }, 1000);
+    }
+});
+
+// မူလ startquestion() ခေါ်ထားတာကို ဖြုတ်လိုက်ပါ (အပေါ်က Event ထဲရောက်သွားပြီမို့လို့)
+// startquestion();

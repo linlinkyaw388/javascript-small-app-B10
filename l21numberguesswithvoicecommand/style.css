@@ -1,0 +1,33 @@
+            *{
+                /*input element ပါလာရင် ဘယ်ညာညှိဖို့*/
+                box-sizing:border-box;  
+             }
+             body{
+                font-family: sans-serif;
+                background-color: #f4f4f4;
+
+                height:100vh;
+
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+             }
+             .form-group .form-control,.form-group .btn{
+                border-style: solid;
+                padding: 10px;
+             }
+             .form-group .form-control:focus{
+               /*အရောင်တွေမပေါ်ပဲ outline ဝင်နေတာ။*/
+               outline: none;  
+             }
+             .container .message1,.container .message2{
+                display: block;
+                margin-top: 5px;
+             }
+
+             .mic-btn{
+
+                margin:10px 0;
+                
+             }

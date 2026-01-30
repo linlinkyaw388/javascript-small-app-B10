@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+/* horizonal center vertical center ကျစေချင်လို့ပေး။ */
+    flex-direction: column;
+    position: relative;
+}
+.controls{
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px 0;
+    position: relative;
+    /* ai */
+    position: absolute;
+    bottom: 0;
+}
+.videoscreen{
+    width: 100%;
+/* control နဲတစ်ဆက်တည်းဖြစ်အောင်ထား ai*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.ctrl-btn{
+    background-color: transparent;
+    color:#fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.progress{
+    width: 70%;
+    height: 4px;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-right: 5px;
+}
+.progress-bar{
+    width:0%;
+    height: 100%;
+    background-color: steelblue;
+    border-radius: 5px;
+}
+.volumeprogress{
+    margin:0 1px;
+}
+.ctrl-btn .fa-play{
+    color:steelblue;
+}
+.ctrl-btn .fa-stop{
+    color: tomato;
+}
+.openfullscreen,.closefullscreen{
+    cursor: pointer;
+}
+.closefullscreen{
+    display: none;
+}
+.displaytime{
+    padding-right: 10px;
+}
+.pannel{
+    background-color: #000;
+    color:#fff;
+    position:absolute;
+    left:10%;
+    top:50%;
+    padding:10px 15px;
+    transition: all .5s ease-out;
+
+    z-index: -1;
+}
+.pannel h4{
+    margin:0;
+    font-size: 14px;
+    font-weight: normal;
+}
+.container:hover .pannel{
+    top:100%;
+}
+
+/* ai code */
+.playbackspeed {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.playbackspeed option {
+    background-color: #222;
+}

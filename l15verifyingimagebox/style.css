@@ -48,3 +48,43 @@ label img:hover{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
     transform: scale(1.1);
 }
+
+
+  /* AI */
+
+.container.quiz-container.hidden{
+
+    display: none;
+
+}
+
+.verify-container.hidden{
+
+    display: none;
+
+}
+
+.verify-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f9f9f9; */
+}
+
+.verify-box {
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.verify-box input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
