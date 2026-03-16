@@ -1,4 +1,5 @@
 #javascript small app Batch 10
+ဒါကတော့ HTML,CSS,Javascript နဲ့ရေးထားတဲ့ small app project လေးတွေကို စုစည်းတင်ပြထားတာပါခင်ဗျ။ တစ်ခုချင်းစီကို နှိပ်၍  ဝင်ရောက် ကြည့်ရှုနိုင်ပါသည်။
 
 [L4slider](https://linlinkyaw388.github.io/javascript-small-app-B10/l4slider/index.html)
 
@@ -39,3 +40,7 @@
 [L22timeline](https://linlinkyaw388.github.io/javascript-small-app-B10/l22timeline/index.html)
 
 [L23sidebar](https://linlinkyaw388.github.io/javascript-small-app-B10/l23sidebar/index.html)
+
+[L24dragshortcut](https://linlinkyaw388.github.io/javascript-small-app-B10/l24dragshortcut/index.html)
+
+[L25texteditor](https://linlinkyaw388.github.io/javascript-small-app-B10/l25texteditor/index.html)
